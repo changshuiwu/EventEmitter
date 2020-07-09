@@ -1,11 +1,16 @@
 {
+  "name": "wu-eventemitter",
+  "main": "./lib/main.js",
+  "version": "1.0.1",
   "scripts": {
-    "dev": "node_modules\\.bin\\webpack-dev-server --config ./build/webpack.config.js --mode development"
+    "dev": "node_modules\\.bin\\webpack-dev-server --config ./build/webpack.config.js --mode development",
+    "build": "node_modules\\.bin\\webpack --config ./build/webpack.prod.js --mode production "
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
