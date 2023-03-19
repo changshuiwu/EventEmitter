@@ -1,5 +1,5 @@
 
-### 手写一个Eventmitter
+### 手写一个Eventmitter.
 
 #### Usage
 
